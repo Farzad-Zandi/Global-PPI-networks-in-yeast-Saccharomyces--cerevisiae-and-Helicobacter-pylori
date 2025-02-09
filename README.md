@@ -14,19 +14,19 @@ Feature extraction methods are available in the `feature extraction` folder impl
 Feature selection method (Binary Bat Algorithm) is available in the `feature selection` folder implemented by MATLAB programming language.  
 ## Usage
 To run model follow bellow steps:
-1. Extract features with 4 feature extraction methods AD, RSIV, PsePSSM, PseAAC as bellow:
-   a) Run `Auto_yeast.m` for extracting autocorrelation descriptor features.
+1. **Extract features with 4 feature extraction methods AD, RSIV, PsePSSM, PseAAC as bellow:
+   - Run `Auto_yeast.m` for extracting autocorrelation descriptor features.
    ```sh
-   Auto_yeast.m```
-   b) Run `selectfeature_Y.m` for extracting reduced sequence and index-vectors features.
+   Auto_yeast.m
+   - Run `selectfeature_Y.m` for extracting reduced sequence and index-vectors features.
    ```sh
-   selectfeature_Y.m```
-   c) Run `PAAC_Y.m` for extracting pseudo amino acid composition features.
+   selectfeature_Y.m
+   - Run `PAAC_Y.m` for extracting pseudo amino acid composition features.
    ```sh
-   PAAC_Y.m```
-   d) Create pseudo-position-specific scoring matrix with Blast and Run `PsePSSM_y.m` for extracting pseudo-position-specific scoring matrix features.
+   PAAC_Y.m
+   - Create pseudo-position-specific scoring matrix with Blast and Run `PsePSSM_y.m` for extracting pseudo-position-specific scoring matrix features.
    ```sh
-   PsePSSM_y.m```
+   PsePSSM_y.m
 2. Fusion 4 extracted data, construct a 1318 dimension vector.
 3. Run BBA code for extracting best features and save obtanied data.
    ```sh
