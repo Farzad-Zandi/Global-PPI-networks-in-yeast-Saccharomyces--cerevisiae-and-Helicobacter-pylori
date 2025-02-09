@@ -9,7 +9,6 @@ Farzad Zandi, Parvaneh Mansouri, Mohammad Goodarzi.
 ## DOI and Links
 - DOI: [https://doi.org/10.1016/j.talanta.2023.124836](https://doi.org/10.1016/j.talanta.2023.124836)
 ## Description
-## Description
 Datasets are available in the `Datasets` folder in `.mat` and `.csv` format.  
 Feature extraction methods are available in the `feature extraction` folder implemented by MATLAB programming language.  
 Feature selection method (Binary Bat Algorithm) is available in the `feature selection` folder implemented by MATLAB programming language.  
@@ -18,20 +17,20 @@ To run model follow bellow steps:
 1. Extract features with 4 feature extraction methods AD, RSIV, PsePSSM, PseAAC as bellow:
    a) Run `Auto_yeast.m` for extracting autocorrelation descriptor features.
    ```sh
-   Auto_yeast.m
+   Auto_yeast.m```
    b) Run `selectfeature_Y.m` for extracting reduced sequence and index-vectors features.
    ```sh
-   selectfeature_Y.m
+   selectfeature_Y.m```
    c) Run `PAAC_Y.m` for extracting pseudo amino acid composition features.
    ```sh
-   PAAC_Y.m
+   PAAC_Y.m```
    d) Create pseudo-position-specific scoring matrix with Blast and Run `PsePSSM_y.m` for extracting pseudo-position-specific scoring matrix features.
    ```sh
-   PsePSSM_y.m
+   PsePSSM_y.m```
 2. Fusion 4 extracted data, construct a 1318 dimension vector.
 3. Run BBA code for extracting best features and save obtanied data.
    ```sh
-   BBA.m
+   BBA.m```
 4. Predict with any machine learning method that you like.
 ## Citiation
 ```bibtex
