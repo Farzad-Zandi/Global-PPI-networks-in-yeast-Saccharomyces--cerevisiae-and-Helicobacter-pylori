@@ -1,7 +1,9 @@
 # Global protein-protein interaction networks in yeast saccharomyces cerevisiae and helicobacter pylori
 ![Graphical Abstract](https://github.com/Farzad-Zandi/Global-PPI-networks-in-yeast-Sacchramyces-cerevisiae-and-Helicobacter-pylori/blob/main/Graphical%20Abstract.jpg)
 ## Abstract
+<p align="justify">
 Understanding many biological processes relies heavily on accurately predicting protein-protein interactions (PPIs). In this study, we propose a novel method for predicting PPIs that is based on LogitBoost with a binary bat feature selection algorithm. Our approach involves the extraction of an initial feature vector by combining pseudo amino acid composition (PseAAC), pseudo-position-specific scoring matrix (PsePSSM), reduced sequence and index-vectors (RSIV), and autocorrelation descriptor (AD). Subsequently, a binary bat algorithm is applied to eliminate redundant features, and the resulting optimal features are fed into the LogitBoost classifier for the identification of PPIs. To evaluate the proposed method, we test it on two databases, Saccharomyces cerevisiae and Helicobacter pylori, using 10-fold cross-validation, and achieve accuracies of 94.39% and 97.89%, respectively. Our results showcase the significant potential of our pipeline in accurately predicting protein-protein interactions (PPIs), thereby offering a valuable resource to the scientific research community.
+</p>
 ## Keyword
 Predicting protein-protein interactions, Features extraction, Features selection, Machine learning, Swarm intelligence, Ensemble learning.
 ## Authors
