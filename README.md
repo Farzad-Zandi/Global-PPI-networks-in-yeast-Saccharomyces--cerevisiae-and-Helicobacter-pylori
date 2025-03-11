@@ -1,4 +1,6 @@
-# Global protein-protein interaction networks in yeast saccharomyces cerevisiae and helicobacter pylori
+# <p align="justify">
+Global protein-protein interaction networks in yeast saccharomyces cerevisiae and helicobacter pylori
+</p>
 ![Graphical Abstract](https://github.com/Farzad-Zandi/Global-PPI-networks-in-yeast-Sacchramyces-cerevisiae-and-Helicobacter-pylori/blob/main/Graphical%20Abstract.jpg)
 ## Abstract
 <p align="justify">
